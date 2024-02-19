@@ -8,19 +8,6 @@ public class Board {
 	private char[][] board;
 
 	
-	/*
-	 * The board object must contain the board state in some manner.
-	 * You must decide how you will do this.
-	 * 
-	 * You may add addition private/public methods to this class is you wish.
-	 * However, you should use best OO practices. That is, you should not expose
-	 * how the board is being implemented to other classes. Specifically, the
-	 * Player classes.
-	 * 
-	 * You may add private and public methods if you wish. In fact, to achieve
-	 * what the assignment is asking, you'll have to
-	 * 
-	 */
 
 	public Board() {
 		board = new char[NUM_OF_ROW][NUM_OF_COLUMNS];

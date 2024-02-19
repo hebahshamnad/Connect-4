@@ -1,8 +1,4 @@
 
-//For HumanPlayer, the makeMove method should prompt the user for input. You can
-// assume the user will always input a number between 1 and 7 inclusive. However, if the
-// user inputs an invalid move, i.e. that column is full, you should reprompt the user for a
-// valid input.
 
 import java.util.Scanner;
 
@@ -35,24 +31,3 @@ public class HumanPlayer extends Player {
     }
 
 }
-
-// public void makeMove () {
-
-// Scanner sc= new Scanner(System.in);
-// int num= sc.nextInt();
-
-// while (board[0][num-1] != ' '){
-
-// System.out.println("Enter a column: ");
-// num= sc.nextInt();
-// }
-
-// for(int r = 6-1; r>=0; r --){
-// if (board[r][num-1]==' '){
-// board[r][num-1]='0';
-// break;}
-// else {;}}
-
-// }
-
-// }}
