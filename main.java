@@ -5,7 +5,7 @@ public class Main {
 
         // Create two players
         Player player1 = new HumanPlayer('X', board, "Player 1");
-        Player player2 = new AIPlayer('O', board, "Computer");
+        Player player2 = new ComputerPlayer('O', board, "Computer");
 
         // Create a new instance of ConnectFour
         ConnectFour game = new ConnectFour(board);
@@ -19,5 +19,3 @@ public class Main {
     }
 }
 
-//javac Main.java
-//java main

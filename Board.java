@@ -119,12 +119,12 @@ public class Board {
 	}
 
 
-	public void AIMove(char sym) {
+	public void ComputerMove(char sym) {
 		//hor
 		int TrueCount=0;
 
 		for(int r = 0; NUM_OF_ROW > r; r += 1){
-  
+		
 			   for(int c = 0; 4> c; c += 1){
 			  
 				 
